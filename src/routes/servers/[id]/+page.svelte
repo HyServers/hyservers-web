@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { Button } from "$lib/components/ui/button";
-	import Footer from "$lib/components/footer.svelte";
 	import StatTile from "$lib/components/stat-tile.svelte";
 	import Icon from "@iconify/svelte";
 	import { renderMarkdown } from "$lib/utils/markdown";
@@ -271,6 +270,4 @@
 			</div>
 		</div>
 	</div>
-
-	<Footer />
 </main>

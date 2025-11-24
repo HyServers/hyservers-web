@@ -4,7 +4,6 @@
 	import { Button } from '$lib/components/ui/button';
 	import * as Select from '$lib/components/ui/select';
 	import ServerCard from '$lib/components/server-card.svelte';
-	import Footer from '$lib/components/footer.svelte';
 	import Alert from '$lib/components/alert.svelte';
 	import Icon from '@iconify/svelte';
 
@@ -364,6 +363,4 @@
 			{/if}
 		{/if}
 	</div>
-
-	<Footer />
 </main>

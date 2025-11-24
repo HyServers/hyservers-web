@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { Button } from '$lib/components/ui/button';
 	import FeatureCard from '$lib/components/feature-card.svelte';
-	import Footer from '$lib/components/footer.svelte';
 	import Icon from '@iconify/svelte';
 
 	const roadmapFeatures = [
@@ -143,6 +142,4 @@
 			</div>
 		</div>
 	</section>
-
-	<Footer />
 </main>
