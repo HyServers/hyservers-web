@@ -118,6 +118,9 @@
 				/>
 				<input
 					type="text"
+					oninput={() => {
+						updateSearch();
+					}}
 					bind:value={searchInput}
 					placeholder="Search servers..."
 					class="w-full rounded-lg border bg-background py-2.5 pl-10 pr-4 text-sm focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
