@@ -1,2 +1,2 @@
 # HyServers
-## Community-Driven Hytale Server Browser
+Community-Driven Hytale Server Browser
