@@ -1,4 +1,4 @@
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 import { password, confirm } from '@inquirer/prompts';
 import * as fs from 'fs';
 import * as path from 'path';

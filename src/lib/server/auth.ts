@@ -1,5 +1,5 @@
 import jwt from 'jsonwebtoken';
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjsjs';
 import { ADMIN_TOKEN, JWT_SECRET } from '$env/static/private';
 import type { Cookies } from '@sveltejs/kit';
 
